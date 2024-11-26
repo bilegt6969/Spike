@@ -12,11 +12,14 @@ const DashboardNavbar = () => {
         <header id="dashboard-navbar" className="fixed top-0 inset-x-0 w-full h-16 bg-background/40 backdrop-blur-md border-b border-border/50 px-4 z-50">
             <Container className="flex items-center justify-between size-full">
                 <div className="flex items-center">
-                    <Link href="/app" className="flex items-center gap-x-2">
+                    <Link href="/" className="flex items-center gap-x-2">
                         <Icons.icon className="w-6" />
-                        <span className="text-lg font-semibold">
-                            Spike
-                        </span>
+                        <div className="items-center gap-x-1 flex">
+                        <h1 className="text-lg font-semibold ">
+                            Spike 
+                        </h1>
+                        <span className="text-sm font-medium text-yellow-400">FlashCards</span> 
+                        </div>
                     </Link>
                 </div>
                 <div className="flex items-center gap-x-2">

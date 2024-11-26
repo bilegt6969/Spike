@@ -69,9 +69,10 @@ const DashboardSidebar = () => {
                     })}
                 </ul>
 
-                <h1 className="text-[#ffffff67] font-medium text-sm mt-8 px-2">Decks</h1>
 
                 <ul className="w-full -space-y-1 py-5">
+                <h1 className="text-[#ffffff67] font-medium text-sm mt-8 px-2">Decks</h1>
+
                     {SIDEBAR_ITEMS.map((link, index) => {
 
                         const isActive = pathname === link.href;
